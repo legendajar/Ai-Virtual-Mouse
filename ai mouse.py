@@ -109,7 +109,7 @@ while True:
             pyautogui.drag(wScr-cX2, cY2, 5, button='left')
             pX2, pY2 = cX2, cY2  # Stores the current x and y location as previous x and y location for next loop
 
-
+        # write code from here
 
     cv2.imshow("Webcam", img)
     if cv2.waitKey(1) & 0xFF == ord('q'):
