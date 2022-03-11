@@ -95,6 +95,9 @@ while True:
                pyautogui.scroll(-20)
             else:
                 pyautogui.scroll(20)
+              
+            
+          # dragging
 
         elif finger[0] == 1 and finger[1] == 1 and finger[2] == 1 and finger[3] == 1 and finger[4] == 1:
             x4 = numpy.interp(x1, (75, 640 - 75), (0, wScr))  # Converts the width of the window relative to the screen width
